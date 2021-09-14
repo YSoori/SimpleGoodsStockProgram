@@ -1,3 +1,0 @@
-coke 1500
-cider 800
-noodle1 800
