@@ -1,5 +1,3 @@
-package C0914_IO_PJT;
-
 import java.util.*;
 import java.io.*;
 
@@ -110,7 +108,7 @@ public class GoodsTest {
 		GoodsInfo g2 = null; //입고 시 중복이 있는지 확인할 변수
 		
 		System.out.println("재고 관리 프로그램을 실행합니다.");
-		readFile("C0914_IO_PJT/stocks.txt");
+		readFile("stocks.txt");
 		line();
 		
 		//반복문 사용하여 반복문이 종료될 때까지 계속 실행.
@@ -140,7 +138,7 @@ public class GoodsTest {
 					g2.store(stocks);
 					
 				}
-				writeFile("C0914_IO_PJT/stocks.txt");
+				writeFile("stocks.txt");
 				
 				line();
 				break;
@@ -165,7 +163,7 @@ public class GoodsTest {
 					}
 					//해당하는 재고가 존재하면 g2.out(stocks)메소드를 수행. 
 				}
-				writeFile("C0914_IO_PJT/stocks.txt");
+				writeFile("stocks.txt");
 				line();
 				break;
 				
@@ -187,7 +185,7 @@ public class GoodsTest {
 					}
 					//해당하는 재고가 존재하면 delGoods(g, delCnt)메소드를 수행. 
 				}
-				writeFile("C0914_IO_PJT/stocks.txt");
+				writeFile("stocks.txt");
 				line();
 				break;
 				
